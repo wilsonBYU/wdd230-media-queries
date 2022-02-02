@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0;
+    padding: 1em;
+}
+
+.card {
+    border: 1px solid rgb(189, 189, 189);
+    margin-bottom: 1em;
+}
+
+.card_image {
+    border-bottom: 1px solid rgb(189, 189, 189);
+    padding: 1em;
+}
+
+.card_image > img {
+    width: 100%;
+}
+
+.card_body {
+    padding: 1em;
+}
+
+.card_footer {
+    position: relative;
+    border-top: 1px solid rgb(189, 189, 189);
+    padding: 1em;
+}
+
+.button_container > button {
+    background-color: white;
+    border: 2px solid rgb(189, 189, 189);
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}

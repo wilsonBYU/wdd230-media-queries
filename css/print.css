@@ -1,0 +1,14 @@
+
+@media print {
+    .card_image > img {
+        display: none;
+    }
+    
+    .card, .card_image, .card_footer {
+        border: none;
+    }
+    
+    .card_footer {
+        display: none;
+    }
+}

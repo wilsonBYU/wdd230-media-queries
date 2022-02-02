@@ -1,0 +1,28 @@
+@media only screen and (min-width: 37.5em) {
+    .card {
+        display: flex;
+        margin-bottom: 1em;
+    }
+    
+    .card_image {
+        width: 750px;
+        border-right: 1px solid rgb(189, 189, 189);
+        border-bottom: none;
+    }
+    
+    .card_footer {
+        border-left: 1px solid rgb(189, 189, 189);
+        border-top: none;
+    }
+    
+    .button_container > button:nth-child(1) {
+        background-color: rgb(139, 46, 46);
+        color: white;
+    }
+    
+    .button_container > button:nth-child(2) {
+        background-color: seagreen;
+        color: white;
+    }
+    
+}
